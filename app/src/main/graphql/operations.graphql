@@ -1,0 +1,3 @@
+mutation Upload($upload: Upload!) {
+    upload(upload: $upload)
+}

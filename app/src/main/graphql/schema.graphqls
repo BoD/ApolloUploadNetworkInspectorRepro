@@ -1,0 +1,10 @@
+
+type Query {
+    foo: String
+}
+
+type Mutation {
+    upload(upload: Upload!): Boolean!
+}
+
+scalar Upload
